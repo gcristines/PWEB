@@ -1,0 +1,90 @@
+.container {
+    width: 500px;
+    height: 500px;
+}
+
+/* Media queries/* 
+
+/*  420px ou menor */
+@media screen and (max-width: 420px) {
+	
+	h2::before {
+		content: "Cinza";
+	}
+	.container {
+		background-color: grey;
+	}
+
+}
+
+/*  maior que 420px e menor que 768px  */
+@media screen and (min-width:420px) and (max-width: 768px) {
+	
+	h2::before {
+		content: "Laranja";
+	}
+	.container {
+		background-color: orange;
+	}
+
+}
+
+/*  maior que 768px e menor que 1024px  */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	h2::before {
+		content: "Rosa";
+	}
+	.container {
+		background-color: pink;
+	}
+
+}
+
+/*  maior que 1024px e menor que 1080px  */
+@media screen and (min-width:1024px) and (max-width: 1080px) {
+	
+	h2::before {
+		content: "Vermelho";
+	}
+	.container {
+		background-color: red;
+	}
+
+}
+
+/*  maior que 1080px e menor que 1366px  */
+@media screen and (min-width:1080px) and (max-width: 1366px) {
+	
+	h2::before {
+		content: "Roxo";
+	}
+	.container {
+		background-color: violet;
+	}
+
+}
+
+/*  maior que 1366px e menor que 1920px */
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+	
+	h2::before {
+		content: "Amarelo";
+	}
+	.container {
+		background-color: yellow;
+	}
+
+}
+
+/*  maior que 1920px */
+@media screen and (min-width: 1920px) and (max-width: 3000px) {
+	
+	h2::before {
+		content: "Verde";
+	}
+	.container {
+		background-color: green;
+	}
+
+}
