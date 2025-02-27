@@ -1,0 +1,118 @@
+/* cores e fontes */
+body {
+    background-color: #ffffff;
+    color: #0a0a0a;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.a1 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* passar mouse */
+a:hover {
+    color: hwb(0 64% 34%);
+}
+
+/* seções */
+header {
+    background-image: url(imagem.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(75%);
+    font-family: arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5);
+    padding: 100px 50px;
+}
+
+nav {
+    background-color: #464646;
+    float: left;
+    width: 100%;
+    margin-block-end: 35px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 14px 16px;
+    border-right: 1px solid #ffffff;
+    text-align: center;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    padding: 10px 60px;
+}
+
+nav ul li a:hover {
+    color: hwb(0 64% 34%);
+}
+
+section {
+    background-color: #ffffff;
+    border: 0.3px solid #120606;
+    padding: 20px;
+}
+
+.img1 {
+    width: 525px;
+    height: 225px; 
+    justify-content: center;
+}
+
+.img2 {
+    width: 500px;
+    height: 315px; 
+    justify-content: center;
+}
+
+.img3 {
+    width: 533px;
+    height: 300px; 
+    justify-content: center;
+}
+
+.img4 {
+    width: 532px;
+    height: 304px; 
+    justify-content: center;
+}
+
+.img5 {
+    width: 500px;
+    height: 300px; 
+    justify-content: center;
+}
+
+.img6 {
+    width: 300px;
+    height: 200px; 
+    justify-content: center;
+}
+
+aside {
+    background-color: #464646;
+    color: #ffffff;
+    padding: 20px;
+    margin: 25px 0;
+    float: right;
+    width: 300px;
+    height: 450px;
+}
