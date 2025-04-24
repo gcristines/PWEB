@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando objetos de 3 formas diferentes</title>
+</head>
+<body>
+    <script>
+
+        //Primeira forma
+        var funcionario1 = {
+            nome: "Gisele",
+            matricula: 1010,
+            funcao: "Estagiária de TI"
+        };
+        alert("Primeira forma\n\n" + "Nome: " + funcionario1.nome + "\nMatrícula: " + funcionario1.matricula + "\nFunção: " + funcionario1.funcao);
+
+        //Segunda forma
+        var funcionario1 = {};
+        funcionario1.nome = "Guilherme";
+        funcionario1.matricula = 2020;
+        funcionario1.funcao = "Desenvolvedor Java Pleno";
+        alert("Segunda forma\n\n" + "Nome: " + funcionario1.nome + "\nMatrícula: " + funcionario1.matricula + "\nFunção: " + funcionario1.funcao);
+
+        //Terceira forma
+        var funcionario1 = new Object();
+        funcionario1.nome = "Vitória";
+        funcionario1.matricula = 3030;
+        funcionario1.funcao = "Diarista";
+        alert("Terceira forma\n\n" + "Nome: " + funcionario1.nome + "\nMatrícula: " + funcionario1.matricula + "\nFunção: " + funcionario1.funcao);
+
+    </script>
+</body>
+</html>
