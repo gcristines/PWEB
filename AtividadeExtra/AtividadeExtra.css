@@ -1,0 +1,19 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input {
+      padding: 5px;
+      width: 250px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+    }
+    .resultado {
+      margin-top: 20px;
+    }
